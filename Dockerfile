@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Comando para ejecutar el bot de Telegram
-CMD ["python", "main.py"]
+CMD ["python", "main.py", "--listen-telegram"]
